@@ -24,6 +24,6 @@ print(f"x: {x}, y: {y}, z: {z}")
 # Mengubah tipe data variabel
 nama_lengkap = "Muhammad Ihsan"
 print(nama_lengkap)
-print(type(nama_lengkap))
+print(f"Tipe Data: {type(nama_lengkap)}")
 nama_lengkap = "Ayana Shahab"
 print(nama_lengkap)
