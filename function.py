@@ -61,3 +61,16 @@ def ubah_nama():
 tampil_nama()  # Akan menampilkan "Mona"
 ubah_nama()    # Akan mengubah nama_global menjadi "Ihsan"
 ubah_nama()    # Akan menampilkan "Ihsan"
+
+
+def cetak_list(*list):
+    for item in list:
+        print(item)
+
+cetak_list(1,2,3,4,5)
+
+def cetak_dict(**dict):
+    for key, val in dict.items():
+        print(f"{key} : {val}")
+
+cetak_dict(nama = "Ayana", umur = 29, kota = "bekasi")
