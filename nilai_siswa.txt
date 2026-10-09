@@ -1,0 +1,3 @@
+Ihsan,90
+Ayana,80
+Mona,70
